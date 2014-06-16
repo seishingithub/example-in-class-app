@@ -1,0 +1,6 @@
+
+<h1>Repo Search for: </h1><%= @repo_search.username %>
+
+<% @repo_search.repos.each do |repo| %>
+  <%= repo["name"] %>
+<% end %>
